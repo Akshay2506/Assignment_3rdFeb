@@ -1,0 +1,12 @@
+let square;
+let check=(square)=>
+{
+    let num=Math.sqrt(square);
+    let c=num*num;
+    if(c===square)
+    console.log(`${square} is a perfect square`);
+    else
+    console.log(`${square} is not a perfect square`);
+}
+check(25);
+check(8);
